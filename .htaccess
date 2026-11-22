@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(README\.md|create_admin\.php)$">
+    Require all denied
+</FilesMatch>
